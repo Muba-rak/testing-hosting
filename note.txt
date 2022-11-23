@@ -1,0 +1,17 @@
+// Products Endpoint
+//CRUD
+Each product document should have 
+1. id
+2. amount
+3. Quantity
+4. name
+
+Task manger Endpoint
+//CRUD create - post read- getall, get single update patch delete - delete
+
+Task
+id
+title,
+completed
+description
+
