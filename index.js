@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 require("dotenv").config();
-const Port = 5000;
+const Port =process.env.PORT || 5000;
 const taskRouter = require("./routes/taskRouter");
 const routeNotFound = require("./middleware/404");
 const errorHandler = require("./middleware/errorHandler");
